@@ -1,0 +1,47 @@
+header {
+  #Mobile_Nav {
+    height: 15vw;
+    width: 100%;
+    padding-bottom: 5px;
+    border-bottom: 1px gray solid;
+    #Mobile_Logo {
+      width: 15vw;
+      float: left;
+    }
+    #Mobile_Love {
+      width: 15vw;
+      float: right;
+    }
+  }
+  #Mobile_Search {
+    display: flex;
+    border-bottom: gray 1px solid;
+    background-color: lightgray;
+    #MSearch {
+      width: 100%;
+      height: 10vw;
+      margin: 15px 20px 15px 20px;
+      text-align: center;
+    }
+  }
+  #Mobile_Navbar {
+    z-index: 10;
+    background-color: rgb(240, 146, 147);
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    display: flex;
+    #Mobile_Close,
+    #Mobile_Menu,
+    #Mobile_Home,
+    #Mobile_Mail,
+    #Mobile_Cart,
+    #Mobile_Member {
+      float: left;
+      height: 15vw;
+    }
+    #Mobile_Close {
+      display: none;
+    }
+  }
+}
