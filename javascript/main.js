@@ -1,5 +1,3 @@
-
-// 影片 3:27:55
 Item();
 function Item(){
     let Item_array = ["Item1","Item2","Item3","Item4"]
