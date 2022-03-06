@@ -1,4 +1,4 @@
-article {
+#Mobile_article {
   background-color: lightgray;
   #Banner {
     height: 100vw;
@@ -9,10 +9,7 @@ article {
       width: 10vw;
       color: white;
       top: 50vw-5vw;
-      font-size: 20px;
-      line-height: 10vw;
       position: absolute;
-      text-align: center;
       border-radius: 5vw;
       background-color: rgba(255, 255, 255, 0.5);
     }
@@ -188,6 +185,28 @@ article {
       padding-top: 15px;
       padding-bottom: 15px;
       background-color: white;
+    }
+  }
+  .Item {
+    width: 50%;
+    .images {
+    }
+    .script1 {
+      display: flex;
+      justify-content: space-between;
+    }
+    .script2 {
+      .name {
+        font-size: larger;
+        font-weight: bolder;
+      }
+      .sales {
+        font-weight: bolder;
+        color: red;
+      }
+      .origin {
+        font-size: smaller;
+      }
     }
   }
 }

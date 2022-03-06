@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="zh-tw">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,8 +8,9 @@
     <title>AnneFlower</title>
     <link rel="stylesheet" href="dist/style/style.min.css">
 </head>
+
 <body>
-    <header>
+    <header id="Mobile_header">
         <div id="Navbar_Menu">
             <div id="MNlogo">ANNE</div>
             <div id="MNsort">
@@ -50,7 +52,7 @@
         <div id="Mobile_Search">
             <input id="MSearch" type="search" placeholder="請輸入商品名稱">
         </div>
-        
+
         <!-- 手機版固定下方導覽列 -->
         <div id="Mobile_Navbar">
             <img id="Mobile_Close" src="img/close.svg" alt="關閉">
@@ -61,8 +63,49 @@
             <img id="Mobile_Member" src="img/member.svg" alt="我的帳戶">
         </div>
     </header>
+    <header id="Web_header">
+        <div id="Nav1">
+            <li id="SignUp"><a href="#">註冊</a> </li>
+            <li id="LoginIn"><a href="#">登入</a></li>
+            <li id="Account"><a href="#">我的帳戶</a></li>
+            <li id="Favorite"><a href="#">我的最愛</a></li>
+            <li id="Cart"><a href="#">購物車</a></li>
+            <li id="Mail"><a href="#">站內信</a></li>
+            <li id="Service"><a href="#">聯絡客服</a></li>
+            <img id="Search_img" src="img/search.svg" alt="">
+            <input id="Search" type="search" placeholder="輸入商品名稱">
+        </div>
+        <div id="Nav2">
+            <ul id="Nav2_1">
+                <img src="img/logo.svg" alt="Logo">
+                <li id="WOMEN"><a href="#">WOMEN</a></li>
+                <li id="MEN"><a href="#">MEN</a></li>
+                <li id="KIDS"><a href="#">KIDS</a></li>
+                <li id="BABY"><a href="#">BABY</a></li>
+            </ul>
+            <ul id="Nav2_2">
+                <li id="INFO"><a href="#">企業資訊</a></li>
+                <li id="MEMBER"><a href="#">會員募集中</a></li>
+                <li id="QNA"><a href="#">常見問題</a></li>
+                <li id="STORE"><a href="#">店鋪資訊</a></li>
+                <li id="SUBSCRIBE"><a href="#">訂閱電子報</a></li>
+            </ul>
+        </div>
+        <div id="Web_Banner">
+            <ul id="Btn_Box">
+                <img class="Btn LeftBtn" src="img/left.svg"></img>
+                <img class="Btn RightBtn" src="img/right.svg"></img>
+            </ul>
+            <ul id="Web_ImgBox">
+                <li><img src="img/banner/010.jpg" alt=""></li>
+                <li><img src="img/banner/009.jpg" alt=""></li>
+                <li><img src="img/banner/008.jpg" alt=""></li>
+            </ul>
+        </div>
+        </div>
+    </header>
 
-    <article>
+    <article id="Mobile_article">
         <div id="Banner">
             <img class="Btn LeftBtn" src="img/left.svg"></img>
             <img class="Btn RightBtn" src="img/right.svg"></img>
@@ -127,10 +170,12 @@
                 </ul>
             </div>
             <h3>看更多Anne系列</h3>
-        </div>           
+        </div>
+        <div id="Mobile_Items">
+        </div>
     </article>
 
-    <footer>     
+    <footer id="Mobile_footer">
         <hr>
         <p>會員登入</p>
         <hr>
@@ -162,11 +207,13 @@
         <hr>
         <p>定型化契約條款</p>
         <hr>
-        <div id="BlankforNavbar"></div>   
+        <div id="BlankforNavbar"></div>
     </footer>
-    
+
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="javascript/jquery-3.6.0.js"></script>
     <script src="javascript/header.js"></script>
+    <script src="javascript/main.js"></script>
 </body>
+
 </html>

@@ -1,0 +1,110 @@
+#Mobile_header {
+  display: none;
+}
+#Web_header {
+  #Nav1 {
+    margin: 15px 10vw;
+    display: flex;
+    justify-content: flex-end;
+    li {
+      background-color: var(--pink);
+      list-style: none;
+      width: auto;
+      border-right: 1px dashed white;
+      border-radius: 3px;
+      a {
+        color: white;
+        font-size: 16px;
+        padding: 0 5px;
+      }
+      a:hover {
+        background-color: #f8d1de;
+        color: black;
+      }
+    }
+    img {
+      height: 25px;
+      width: auto;
+      background-color: white;
+    }
+    #Search {
+      margin: 1vw;
+      margin: auto 0;
+      width: 15vw;
+      height: 25px;
+      border: none;
+      border-bottom: 1px black solid;
+    }
+  }
+  #Nav2 {
+    margin: 15px 10vw;
+    display: flex;
+    justify-content: space-between;
+    #Nav2_1 {
+      align-items: center;
+      display: flex;
+      li {
+        width: 5vw;
+        a {
+          width: 100%;
+          text-align: center;
+          display: inline-block;
+          line-height: 70px;
+        }
+      }
+      img {
+        width: 70px;
+      }
+    }
+    #Nav2_2 {
+      display: flex;
+      align-items: center;
+      li {
+        height: 100%;
+        width: 7vw;
+        a {
+          width: 100%;
+          text-align: center;
+          background-color: black;
+          display: inline-block;
+          line-height: 70px;
+          color: white;
+        }
+      }
+    }
+  }
+  #Web_Banner {
+    position: relative;
+    margin: 15px 10vw;
+    height: 25vw;
+    #Btn_Box {
+      .Btn {
+        position: absolute;
+        z-index: 5;
+        border-radius: 2.5vw;
+        width: 5vw;
+        height: 5vw;
+        object-fit: contain;
+        background-color: lightgray;
+        top: 9.75vw;
+      }
+      .LeftBtn {
+        left: 1vw;
+      }
+      .RightBtn {
+        right: 1vw;
+      }
+    }
+    #Web_ImgBox {
+      height: 25vw;
+      li {
+        img {
+          height: 25vw;
+          width: 100%;
+          object-fit: cover;
+          position: absolute;
+        }
+      }
+    }
+  }
+}

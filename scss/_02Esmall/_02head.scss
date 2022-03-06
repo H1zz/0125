@@ -1,4 +1,7 @@
-header {
+#Web_header {
+  display: none;
+}
+#Mobile_header {
   #Navbar_Menu {
     z-index: 10;
     background-color: lightgray;
@@ -43,17 +46,21 @@ header {
     }
   }
   #Mobile_Nav {
-    height: 15vw;
     width: 100%;
-    padding-bottom: 5px;
     border-bottom: 1px gray solid;
+    display: flex;
+    justify-content: space-between;
     #Mobile_Logo {
+      margin: 0px;
       width: 15vw;
-      float: left;
+      height: 15vw;
+      flex: none;
     }
     #Mobile_Love {
+      margin: 0px;
       width: 15vw;
-      float: right;
+      height: 15vw;
+      flex: none;
     }
   }
   #Mobile_Search {
@@ -69,7 +76,7 @@ header {
   }
   #Mobile_Navbar {
     z-index: 10;
-    background-color: rgb(240, 146, 147);
+    background-color: var(--pink);
     position: fixed;
     bottom: 0px;
     width: 100%;
@@ -83,8 +90,9 @@ header {
       float: left;
       height: 15vw;
     }
-    #Mobile_Close {
-      // display: none;
-    }
+    // #Mobile_home :hovor {
+    //   background-color: violet;
+    //   transition: var (--tran01);
+    // }
   }
 }
